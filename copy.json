@@ -1,0 +1,1148 @@
+[
+  {
+    "name": "mrLoathsome",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "Hi, Mister Billy!",
+        "callBack": "raiseHand"
+      },
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.17,
+          0.72,
+          0
+        ],
+        "text": "Don't \"Mister\" me, Pirate!\nI want my money by\nthe end of the day!",
+        "callBack": "moveHand"
+      },
+      {
+        "text": "Or you'll be out on the street\nwith the rest of the scum.",
+        "callBack": "lowerHand"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "Yes, Sir! I won't disappoint you!",
+        "callBack": "raiseHand"
+      },
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.17,
+          0.72,
+          0
+        ],
+        "text": "Your kind always\ndisappoints me, Pirate.",
+        "callBack": "moveHand"
+      },
+      {
+        "text": "Ungrateful, lazy bunch."
+      },
+      {
+        "text": "Now, get me those\nthirty coins you owe me.",
+        "callBack": "raiseHandCoins"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "Yes, Sir, I will!"
+      }
+    ]
+  },
+  {
+    "name": "start",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.15,
+          0.85,
+          0
+        ],
+        "text": "Better get crackin'..."
+      },
+      {
+        "text": "Hard work always pays off!"
+      }
+    ]
+  },
+  {
+    "name": "tree",
+    "data": [
+      {
+        "char": "rootTree",
+        "pos": [
+          -0.34,
+          0.9,
+          0
+        ],
+        "text": "Hi, Pirate. Are you ready to\ngo on an adventure!?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.9,
+          0
+        ],
+        "text": "No time for that, Mr. Tree.\nI'm collecting coins."
+      },
+      {
+        "text": "Gotta pay the rent."
+      },
+      {
+        "char": "rootTree",
+        "pos": [
+          -0.34,
+          0.9,
+          0
+        ],
+        "text": "Sigh... There's more to life than rent, you know."
+      },
+      {
+        "text": "When's the last time you just... breathed?"
+      },
+      {
+        "text": "Climb my branches\nand discover what it's all about."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.9,
+          0
+        ],
+        "text": "I don't know...\nMister Billy looked really\nangry this time.",
+        "callBack": "sigh"
+      },
+      {
+        "char": "rootTree",
+        "pos": [
+          -0.34,
+          0.9,
+          0
+        ],
+        "text": "Sigh...Fine, There are also\ncoins in my branches.",
+        "callBack": "sighDone"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.9,
+          0
+        ],
+        "text": "Coins? Could've mentioned that earlier.\nI'm on my way!"
+      }
+    ]
+  },
+  {
+    "name": "god",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "Good morning, little child."
+      },
+      {
+        "text": "Excellent platforming!"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "text": "Are you..."
+      },
+      {
+        "text": "Are you God?"
+      },
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "Nooo, my child!"
+      },
+      {
+        "text": "I am the Man in the Sky,\nthe All-Seeing Eye."
+      },
+      {
+        "text": "I observe your deeds and\nbring presents to worthy children..."
+      },
+      {
+        "text": "If their parents can afford it, that is."
+      },
+      {
+        "text": "It's the Miracle of Economics!\nAnd omnipresent surveillance."
+      },
+      {
+        "text": "Would you like a present, child?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.83,
+          0
+        ],
+        "choice": [
+          {
+            "text": "I love presents!",
+            "callText": "godYes",
+            "callBack": "godYes"
+          },
+          {
+            "text": "No time, old man. I'm here to\ncollect the coins.",
+            "callText": "godNo",
+            "callBack": "godNo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "godYes",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "Excellent! Choose wisely!"
+      }
+    ]
+  },
+  {
+    "name": "godNo",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "Oh... very well.\nYou can have my coins if you want."
+      },
+      {
+        "text": "No need for coins in the sky."
+      }
+    ]
+  },
+  {
+    "name": "godGame",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          0.15,
+          0.8,
+          0
+        ],
+        "text": "Get ready!"
+      }
+    ]
+  },
+  {
+    "name": "godPresent0",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          0.15,
+          0.8,
+          0
+        ],
+        "text": "A User Agreement!\nBy choosing this, you agree that\nyour data will be sold to\nthe highest bidder!"
+      },
+      {
+        "text": "Thanks!"
+      },
+      {
+        "text": "Only 2 coins for a yearly subscription."
+      }
+    ]
+  },
+  {
+    "name": "godPresent1",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          0.15,
+          0.8,
+          0
+        ],
+        "text": "An MBA in business administration!"
+      },
+      {
+        "text": "This grants you the sacred\nknowledge of synergistic\nparadigm shifts."
+      },
+      {
+        "text": "and maximizes that shareholder value.\nIt'll trickle down any day now."
+      },
+      {
+        "delay": 0.5,
+        "text": "For the cheap price of only 3 coins!\nTrickling down not guaranteed."
+      }
+    ]
+  },
+  {
+    "name": "godPresent2",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          0.15,
+          0.8,
+          0
+        ],
+        "text": "Some Fish Sticks!"
+      },
+      {
+        "text": "Brought to you by our\nsponsor, Fish-Boy Fish Sticks."
+      },
+      {
+        "text": "All the goodness of the sea\nprocessed into tasty, frozen blocks."
+      },
+      {
+        "delay": 1,
+        "text": "They're yours for only one coin!"
+      }
+    ]
+  },
+  {
+    "name": "godPresent3",
+    "data": [
+      {
+        "char": "godRoot",
+        "pos": [
+          0.15,
+          0.8,
+          0
+        ],
+        "text": "Some tech stock with a sky-high P/E ratio,\nso they must be good!"
+      },
+      {
+        "text": "And you can hold the bag for only 3 coins!"
+      }
+    ]
+  },
+  {
+    "name": "cookieNoPresent",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Hi, Sammy.\nYou won't believe who I just met!"
+      }
+    ]
+  },
+  {
+    "name": "cookieUser",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Hi, Sammy.\nWant to sign my User Agreement?"
+      }
+    ]
+  },
+  {
+    "name": "cookieNDA",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Hi, Sammy.\nWant to see my stocks?"
+      }
+    ]
+  },
+  {
+    "name": "cookieBlank",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Hi, Sammy.\nGot me some fish."
+      }
+    ]
+  },
+  {
+    "name": "cookieDegree",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Hi, Sammy. Got an MBA!\nWant me to do some layoffs\nfor a big bonus?"
+      }
+    ]
+  },
+  {
+    "name": "cookie",
+    "data": [
+      {
+        "char": "rootSausage",
+        "pos": [
+          -0.2,
+          1.0,
+          0
+        ],
+        "text": "Fuck off, man, get lost!"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "Why are you so angry?\nIt's such a beautiful day!"
+      },
+      {
+        "char": "rootSausage",
+        "pos": [
+          -0.2,
+          1.0,
+          0
+        ],
+        "text": "I don't know...\nMy mom told me\nI was a happy baby."
+      },
+      {
+        "text": "But then... school. Job. Bills."
+      },
+      {
+        "text": " Been downhill ever since..."
+      },
+      {
+        "text": "Now I just smash stuff!"
+      },
+      {
+        "text": "You should try it, it feels  amazing!\n...It really gives your life... purpose!"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "I don't know, Sammy.\nThat doesn't seem right."
+      },
+      {
+        "char": "rootSausage",
+        "pos": [
+          -0.2,
+          1.0,
+          0
+        ],
+        "text": "It's Just produce, man.\nGreat stress relief."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "When you put it like that...\nSign me up."
+      },
+      {
+        "char": "rootSausage",
+        "pos": [
+          -0.2,
+          1.0,
+          0
+        ],
+        "text": "Great! That will be 5 coins.\nSmash 4 fruits and you get the prize."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.82,
+          0
+        ],
+        "text": "More coins?",
+        "callBack": "payCookie"
+      },
+      {
+        "char": "rootSausage",
+        "pos": [
+          -0.2,
+          1.0,
+          0
+        ],
+        "text": "We'll see..."
+      }
+    ]
+  },
+  {
+    "name": "strawBerry",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "What's going on, Strawberry?"
+      },
+      {
+        "char": "strawberryRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "Just got a call from my mum:\nMy brother got squashed by some jerk!"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "Ow..."
+      },
+      {
+        "char": "strawberryRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "And I really need some money\nto buy...\nuh... medicine."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "How much do you need?"
+      },
+      {
+        "char": "strawberryRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "Just a few coins.\n#numCoins to be exact."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "choice": [
+          {
+            "text": "That's everything I've got...\nMister Billy needs those.",
+            "callBack": "coinsNo",
+            "callText": "dontgiveCoins"
+          },
+          {
+            "text": "Here you go! #numCoins coins.\nI know it's rough out here.",
+            "callBack": "coinsYes",
+            "callText": "giveCoins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "giveCoins",
+    "data": [
+      {
+        "char": "strawberryRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "You're alright, Pirate.\nHey, take some of my Fish Sticks!"
+      }
+    ]
+  },
+  {
+    "name": "dontgiveCoins",
+    "data": [
+      {
+        "char": "strawberryRoot",
+        "pos": [
+          -0.2,
+          0.8,
+          0
+        ],
+        "text": "That's OK.\nI'm sure Mister Billy\nneeds it more than I do."
+      }
+    ]
+  },
+  {
+    "name": "hand",
+    "data": [
+      {
+        "char": "rootHand",
+        "pos": [
+          -0.15,
+          0.8,
+          0
+        ],
+        "text": "Hi, Pirate. Want to have some fun?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "I'm broke, Candy.\nMaybe some other time..."
+      },
+      {
+        "char": "rootHand",
+        "pos": [
+          -0.15,
+          0.8,
+          0
+        ],
+        "text": "Looks like everyone's broke these days."
+      },
+      {
+        "text": "Hey, maybe you can help me!"
+      },
+      {
+        "text": "Mister Billy took my fingers.\nSaid I didn't make him enough\nmoney."
+      },
+      {
+        "text": "Some of my clients really miss them."
+      },
+      {
+        "delay": "0.5",
+        "text": "And you being a pirate and such...?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "This is just a costume, Candy."
+      },
+      {
+        "text": "Sure, I download a movie\nevery now and then."
+      },
+      {
+        "text": "But I'm not a real pirate."
+      },
+      {
+        "text": "I'm just pretending to be someone...\nmeaningful, you know?"
+      },
+      {
+        "text": "I don't even own a sword\nor a ship Or... anything, really."
+      },
+      {
+        "char": "rootHand",
+        "pos": [
+          -0.15,
+          0.8,
+          0
+        ],
+        "text": "...Yeah. I get it. Maybe someday, Pirate."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.2,
+          0.8,
+          0
+        ],
+        "text": "I can't even pay my rent right now..."
+      }
+    ]
+  },
+  {
+    "name": "fishBoy",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.9,
+          0
+        ],
+        "text": "Wow! You're Fish Boy!"
+      },
+      {
+        "text": "The world's most famous\ncelebrity Fish Stick!"
+      },
+      {
+        "char": "FishBoyRoot",
+        "pos": [
+          -0.1,
+          0.8,
+          0
+        ],
+        "text": "I sure am, kid."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.9,
+          0
+        ],
+        "text": "Damn! I didn't know you\nworked in your own factory?"
+      },
+      {
+        "char": "FishBoyRoot",
+        "pos": [
+          -0.1,
+          0.8,
+          0
+        ],
+        "text": "It's not mine, kid. I'm just the face."
+      },
+      {
+        "text": "Billy's Global Industries owns it.\nOwns me too, pretty much."
+      },
+      {
+        "text": "I'm just grinding myself down here."
+      },
+      {
+        "text": "All for the next paycheck."
+      },
+      {
+        "text": "That aside,\nare you lost, or just trespassing?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "choice": [
+          {
+            "text": "I'm looking for coins.\nCan you lend me some?",
+            "callText": "fishBoyMoney"
+          },
+          {
+            "text": "Can I have some Fish Sticks?",
+            "callText": "fishBoyFish"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fishBoyFish",
+    "data": [
+      {
+        "char": "FishBoyRoot",
+        "pos": [
+          -0.1,
+          0.8,
+          0
+        ],
+        "callBack": "getFishSticks",
+        "text": "Sure, help yourself. I don't care."
+      }
+    ]
+  },
+  {
+    "name": "fishBoyMoney",
+    "data": [
+      {
+        "char": "FishBoyRoot",
+        "pos": [
+          -0.1,
+          0.8,
+          0
+        ],
+        "text": "Do I look like I have money, kid?"
+      },
+      {
+        "text": "Now, get out of here!\nAuthorized personnel only!"
+      }
+    ]
+  },
+  {
+    "name": "girl",
+    "data": [
+      {
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.135,
+          0
+        ],
+        "text": "Hi, Pirate. What's up?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.85,
+          0
+        ],
+        "text": "I don't know, Miss...\nI can't seem to collect enough\ncoins."
+      },
+      {
+        "text": "Feels like the game\nis rigged against me.",
+        "callBack": "lookDown"
+      },
+      {
+        "delay": 0.5,
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.145,
+          0
+        ],
+        "text": "If the game is rigged,\nyou shouldn't play by\nthe rules, Pirate."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.85,
+          0
+        ],
+        "text": "I'm afraid I don't have\nmuch of a choice, Miss...",
+        "callBack": "lookUp"
+      },
+      {
+        "delay": 1,
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.135,
+          0
+        ],
+        "text": "There is always a\nchoice, Pirate."
+      },
+      {
+        "text": "But sometimes it takes\neverything you got."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.85,
+          0
+        ],
+        "text": "Sigh... I only got #numCoins of\nthe 30 coins I need."
+      },
+      {
+        "text": "And #numFishsticks Fish Sticks\nfor some reason..."
+      }
+    ]
+  },
+  {
+    "name": "girlEnd",
+    "data": [
+      {
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.135,
+          0
+        ],
+        "text": "That's all you need, Pirate!\n...That's all you need!"
+      },
+      {
+        "text": "Now go make your choice."
+      }
+    ]
+  },
+  {
+    "name": "girlFishEndOne",
+    "data": [
+      {
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.135,
+          0
+        ],
+        "text": "A man needs at least 5 Fish Sticks.\nHave one of mine!"
+      },
+      {
+        "text": "Now go make your choice."
+      }
+    ]
+  },
+  {
+    "name": "girlFishEndSome",
+    "data": [
+      {
+        "char": "bodyFairy",
+        "pos": [
+          -0.39,
+          0.135,
+          0
+        ],
+        "text": "A man needs at least 5 Fish Sticks.\nHave some of mine!"
+      },
+      {
+        "text": "Now go make your choice."
+      }
+    ]
+  },
+  {
+    "name": "sea",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.85,
+          0
+        ],
+        "text": "The open ocean.\nThe birthplace of the mighty fish stick."
+      },
+      {
+        "text": "How I wish I could sail from these shores\nand cross the endless sea."
+      },
+      {
+        "text": "Be free, like a real pirate."
+      }
+    ]
+  },
+  {
+    "name": "readBoy",
+    "data": [
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.01,
+          0.8,
+          0
+        ],
+        "text": "Can't you read, boy!\nThis is private property!"
+      },
+      {
+        "text": "I should shoot you right now."
+      }
+    ]
+  },
+  {
+    "name": "landlordConversation",
+    "data": [
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.01,
+          0.8,
+          0
+        ],
+        "text": "Oh, it's you again."
+      },
+      {
+        "text": "Got my money, boy?"
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          -0.1,
+          0.85,
+          0
+        ],
+        "choice": [
+          {
+            "text": "Sorry, Mister Billy...\nI'll have it tomorrow. I promise!",
+            "callText": "moneyTommorow"
+          },
+          {
+            "text": "I have some Fish Sticks you can have?",
+            "callText": "givefishSticks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "moneyTommorow",
+    "data": [
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.01,
+          0.8,
+          0
+        ],
+        "text": "That won't do, Pirate.",
+        "callText": "gunready"
+      }
+    ]
+  },
+  {
+    "name": "givefishSticks",
+    "data": [
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.01,
+          0.8,
+          0
+        ],
+        "text": "Why do you think I want those?",
+        "callText": "gunready"
+      }
+    ]
+  },
+  {
+    "name": "gunready",
+    "data": [
+      {
+        "char": "rootLandlord",
+        "pos": [
+          0.01,
+          0.8,
+          0
+        ],
+        "text": "Plenty of fish in the sea to replace you."
+      },
+      {
+        "text": "You won't get missed!",
+        "callBack": "endCall"
+      }
+    ]
+  },
+  {
+    "name": "godEnd",
+    "data": [
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "text": "Hi, God. Want to join the party?"
+      },
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "Don't believe in God, Pirate.\nI'm just false hope, floating in the sky."
+      },
+      {
+        "text": "...Nice ship, though."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "text": "Thanks! Found it."
+      },
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "You know, they won't let you get away with this."
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "text": "Sure, I might drown tomorrow,\nbut at least now I'm sailing."
+      },
+      {
+        "char": "godRoot",
+        "pos": [
+          -0.3,
+          0.85,
+          0
+        ],
+        "text": "That's the spirit Pirate!\nEnjoy the party while it lasts..."
+      },
+      {
+        "text": "Anyway, I will see you soon, Pirate.",
+        "delay": 0.5
+      },
+      {
+        "char": "charRoot",
+        "pos": [
+          0.1,
+          0.8,
+          0
+        ],
+        "text": "Yeah..."
+      },
+      {
+        "text": "See you soon, God!"
+      },
+      {
+        "delay": 0.5,
+        "text": "But not tonight..."
+      }
+    ]
+  }
+]
